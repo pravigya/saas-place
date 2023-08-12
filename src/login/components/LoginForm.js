@@ -27,7 +27,7 @@ export default function LoginForm({ setSubmitted }) {
     }
   }
   return (
-    <form className="content-grid home-hero">
+    <form onSubmit={onSubmit} className="content-grid home-hero">
       {error && (
         <div className="danger" role="alert">
           {error}

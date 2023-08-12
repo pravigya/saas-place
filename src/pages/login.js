@@ -10,7 +10,7 @@ export default function LoginPage() {
   const [submitted, setSubmitted] = useState("");
   return (
     <div className="grid-halves h-screen">
-      <div className="border-right ng-offwhite">
+      <div className="border-right bg-offwhite">
         <div className="column-padding">
           <div className="tablet-centered">
             <Link href="/" className="logo-container">
