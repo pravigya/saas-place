@@ -14,6 +14,7 @@ export default function Plans({ plans }) {
 
   async function onCheckout() {
     setRedirecting(true);
+    console.log("oncheckout called");
     const response = await fetch(`${SITE_URL}/api/checkout/${plan.id}`);
     const data = await response.json();
     const stripe = await loadStripe(
