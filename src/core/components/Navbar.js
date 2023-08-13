@@ -32,9 +32,9 @@ export default function Navbar() {
           <Link href="/products" className="nav-link white">
             Products
           </Link>
-          // <a onClick={onManageBilling} className="nav-link border-left white">
-          //   <div>Billing</div>
-          // </a>
+       {/*<a onClick={onManageBilling} className="nav-link border-left white">
+             <div>Billing</div>
+           </a>*/}
           <div onClick={signOut} className="nav-link black">
             <div>Sign Out</div>
           </div>
