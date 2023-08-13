@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function SubscriberCard() {
-  reutn(
+  return (
     <section>
       <div>
         <h4>See All Products</h4>
